@@ -1,0 +1,50 @@
+{
+    "providerId": "corebank",
+    "transactions": [
+        {
+            "id": "a9513bd4-571d-4101-ad49-5c7209853858",
+            "text": "Icy Clouds",
+            "transactionDate": "2023-10-20T14:32:00Z",
+            "bookingDate": "2023-10-20",
+            "valueDate": "2023-10-22",
+            "timestamp": "2023-10-20T14:32:00Z",
+            "bookedAmount": -49.99,
+            "amountInCurrency": -49.99,
+            "currency": "GBP",
+            "bookingStatus": "booked",
+            "isOwnAccountTransfer": false,
+            "isMerchant": true,
+            "mcc": "5451",
+            "reference": "TR-011235813",
+            "purposeCode": "MP2B",
+            "bankTransactionCode": "PMNT-IRCT-XBST",
+            "proprietaryBankTransactionCode": "TR-81321",
+            "authorizationCode": "213455",
+            "endToEndId": "EI-553421",
+            "creditorId": "UK55MEN01123581321",
+            "checkId": "CH-13213455",
+            "properties": {
+                "exampleProperty": "Example value",
+                "anotherExampleProperty": "-112.35",
+                "differentExampleProperty": "false"
+            },
+            "accountId": "c8513bd4-571d-4101-ad49-5c7209853858",
+            "maskedPan": "901135******3455",
+            "balance": 1000.01,
+            "counterparty": {
+                "name": "Icy Clouds Ice Cream",
+                "accountId": "f8513bd4-571d-4101-ad49-5c7209853858",
+                "accountIdType": "id",
+                "terminalId": "TI-13213455",
+                "merchantId": "MI-55342113",
+                "merchantPublicId": "MPI-13213455",
+                "countryCode": "GB",
+                "region": "South East",
+                "city": "Cowes",
+                "street": "The Parade",
+                "postalCode": "M0317QT",
+                "geoLocation": "50.766179,-1.300220"
+            }
+        }
+    ]
+}

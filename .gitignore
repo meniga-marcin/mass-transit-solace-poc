@@ -1,0 +1,58 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+#temporary files
+.tmp/
+packages/
+.nuke/temp/
+
+#Dist
+
+dist/
+packages
+*.nupkg
+node_modules
+mochawesome-report
+
+# Kdiff3 backup file
+*.orig
+artifacts/*
+
+logs/
+
+
+# Local setting
+build/_build.csproj.DotSettings
+
+tests/api/src/all/license-filtering/usersToImport.csv
